@@ -1,0 +1,103 @@
+.loyalty_container {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 1080px) {
+  .loyalty_container {
+    height: auto;
+  }
+}
+.loyalty_container .loyalty__card {
+  background-color: #F4F5F6;
+  width: 100%;
+  height: 527px;
+  display: flex;
+}
+@media only screen and (max-width: 1080px) {
+  .loyalty_container .loyalty__card {
+    height: auto;
+    border-radius: 70px;
+  }
+}
+.loyalty_container .loyalty__card .loyalty__card__container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 1080px) {
+  .loyalty_container .loyalty__card .loyalty__card__container {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 1170px) {
+  .loyalty_container .loyalty__card .woman-pic {
+    height: 95%;
+  }
+}
+@media all and (max-width: 1080px) {
+  .loyalty_container .loyalty__card .woman-pic {
+    height: fit-content;
+  }
+}
+.loyalty_container .loyalty__card .loyalty__card__items_list {
+  display: flex;
+  flex-direction: column;
+  height: 120%;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 27px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 27px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 27px -8px rgba(0, 0, 0, 0.75);
+  width: 455px;
+}
+@media all and (max-width: 426px) {
+  .loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item {
+    width: auto;
+  }
+}
+.loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item img {
+  height: fit-content;
+}
+.loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item div {
+  width: 70%;
+}
+.loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item__second {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 27px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 27px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 27px -8px rgba(0, 0, 0, 0.75);
+  width: 455px;
+  margin-left: 50px;
+}
+@media all and (max-width: 560px) {
+  .loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item__second {
+    margin-left: 0;
+    width: auto;
+  }
+}
+.loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item__second img {
+  height: fit-content;
+}
+.loyalty_container .loyalty__card .loyalty__card__items_list .loyalty__card__items_list__item__second div {
+  width: 70%;
+}
+
+/*# sourceMappingURL=Loyalty.css.map */

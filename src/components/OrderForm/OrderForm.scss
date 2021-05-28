@@ -1,0 +1,49 @@
+@mixin displayFlexed() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+  .box { @include displayFlexed(); }
+
+.order_form_container{
+    @include displayFlexed();
+    width: 100%;
+    
+    .order_form__block{
+        @include displayFlexed();
+        width: 500px;
+
+        @media all and (max-width: 510px) {
+            width: auto;
+        }
+
+
+        form{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            input{
+                width: 60%;
+                border-radius: 8px;
+                border: none;
+                background-color: #F0F0F2;
+                text-align: center;
+            }
+        }
+
+        .order_form__block__buttons{
+            padding: 20px;
+            width: 75%;
+            display: flex;
+            justify-content: space-around;
+        }
+    
+    }
+
+    h2{
+        text-align: center;
+        font-size: 50px;
+    }
+}

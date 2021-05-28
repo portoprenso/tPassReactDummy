@@ -1,0 +1,55 @@
+.bonuses_container{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @media all and (max-width: 550px){
+        flex-direction: column;
+    }
+
+
+    @media all and (max-width: 768px){
+        height: auto;
+    }
+
+    .bonuses__item{
+        width: 25%;
+        height: 90%;
+
+        @media all and (max-width: 550px){
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    
+
+        ul{
+            padding: 0;
+            li{
+                display: flex;
+                img{
+                    @media all and (max-width: 550px){
+                        justify-self: center;
+                        align-self: center;
+                        margin: 0 auto;
+                    }
+                }
+        
+                p{
+                    @media all and (max-width: 550px){
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .bonuses__item ul{
+        list-style-type: none;
+    }
+}

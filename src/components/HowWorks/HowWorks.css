@@ -1,0 +1,58 @@
+.howworks_container {
+  width: 100%;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+.howworks_container .howworks__card {
+  height: 540px;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+  background-color: #F4F5F6;
+  border-radius: 70px;
+  margin: 0 auto;
+}
+@media all and (max-width: 600px) {
+  .howworks_container .howworks__card {
+    flex-direction: column;
+    height: 1000px;
+  }
+}
+.howworks_container .howworks__card h2 {
+  font-size: 40px;
+}
+.howworks_container .howworks__card .howworks__card__description {
+  align-self: center;
+  justify-content: flex-start;
+  width: 420px;
+}
+@media all and (max-width: 768px) {
+  .howworks_container .howworks__card .howworks__card__description {
+    width: auto;
+  }
+}
+.howworks_container .howworks__card p {
+  color: #576D81;
+}
+.howworks_container .howworks__card img {
+  height: 120%;
+  align-self: center;
+}
+@media all and (max-width: 990px) {
+  .howworks_container .howworks__card img {
+    height: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  .howworks_container .howworks__card img {
+    height: 80%;
+  }
+}
+@media all and (max-width: 600px) {
+  .howworks_container .howworks__card img {
+    height: 300px;
+  }
+}
+
+/*# sourceMappingURL=HowWorks.css.map */

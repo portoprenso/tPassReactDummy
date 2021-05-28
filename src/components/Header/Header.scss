@@ -1,0 +1,33 @@
+.header_container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 50px;
+    max-width: 1280px;
+    min-width: 90%;
+    margin: 0 auto;
+    // margin-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    img{
+        justify-self: flex-start;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        // margin: auto auto;
+        width: 60%;
+        justify-self: flex-end;
+        // z-index: 10000;
+    }
+    ul li {
+        margin: 0 auto;
+        z-index: 1;
+    }
+}

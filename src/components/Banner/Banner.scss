@@ -1,0 +1,88 @@
+.banner_container{
+    background-color: #f5f6f7;
+    width: 100%;
+    height: 710px;
+    box-sizing: border-box;
+
+    h2{
+        color: #00CCCC;
+        font-size: 55px;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 55px;
+        font-weight: 500;
+    }
+    
+    .banner__window{
+        max-width: 1280px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        h2{
+            z-index: 1;
+        }
+
+        h3{
+            z-index: 1;
+        }
+
+        .frame_for_couple{
+            background-image: url(../../assets/frame_for_couple.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: 13.5%;
+            left: 450px;
+            // left: calc(100% - 750px);
+            height: 100%;
+            // width: 70%;
+            width: calc(100% - 450px);
+            box-sizing: border-box;
+
+            @media all and (max-width: 1440px){
+                // left: 350px;
+                // left: calc(100%-8px);
+            }
+            @media all and (max-width: 1180px){
+                // left: 250px;
+                // width: 75%;
+            }
+            @media all and (max-width: 1024px){
+                // left: 250px;
+                // width: 65%;
+            }
+            @media all and (max-width: 710px){
+                // left: 200px;
+                // width: 55%;
+            }
+            @media all and (max-width: 710px){
+                display: none;
+            }
+        }
+
+        .couple_photo{
+            position: absolute;
+            top: 198px;
+            right: 200px;
+
+            @media all and (max-width: 1024px){
+                right: 110px;
+            }
+            @media all and (max-width: 960px){
+                right: 90px;
+            }
+            @media all and (max-width: 900px){
+                right: 30px;
+            }
+            @media all and (max-width: 820px){
+                right: -0px;
+                // height: 50%;
+            }
+            @media all and (max-width: 720px){
+                display: none;
+            }
+        }
+    }
+}

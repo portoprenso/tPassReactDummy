@@ -1,0 +1,50 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order_form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.order_form_container .order_form__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+@media all and (max-width: 510px) {
+  .order_form_container .order_form__block {
+    width: auto;
+  }
+}
+.order_form_container .order_form__block form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.order_form_container .order_form__block form input {
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+  background-color: #F0F0F2;
+  text-align: center;
+}
+.order_form_container .order_form__block .order_form__block__buttons {
+  padding: 20px;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+.order_form_container h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=OrderForm.css.map */
